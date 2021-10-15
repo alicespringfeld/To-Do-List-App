@@ -2,3 +2,15 @@ body {
   color: white;
   background-color: cadetblue;
 }
+
+.taskList {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.app {
+  display: grid;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+}

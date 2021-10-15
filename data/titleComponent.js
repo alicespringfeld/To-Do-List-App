@@ -1,8 +1,8 @@
-/*import { createElement } from "/data/elements.js";
+import { createElement } from "./elements.js";
 
-export function createTitle() {
-  const titleComponent = createElement("h1", {
-    textContent: "Todays To-Do-List",
+export function createTitleComponent() {
+  const titleElement = createElement("h1", {
+    textContent: "Today's To-Do-List",
     className: "title",
   });
 
