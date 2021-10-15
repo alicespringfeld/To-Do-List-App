@@ -20,7 +20,7 @@ function createApp() {
       [
         createElement("p", { className: "task" }, [
           `${toDo}`,
-          createElement("input,", { type: "checkbox" }),
+          createElement("input", { type: "checkbox" }),
         ]),
       ]
     );
