@@ -1,5 +1,5 @@
-import { createTitleComponent } from "/data/titleComponent.js";
-import { createEnterTodoList } from "/data/enterTodoList.js";
+import { createTitleComponent } from "./data/titleComponent.js";
+import { createEnterTodoList } from "./data/enterTodoList.js";
 import { createElement } from "./data/elements.js";
 
 function createApp() {
